@@ -15,7 +15,7 @@ public class St_def_GmailAuto {
 	
 	@Given("^I launch Gmail$")
 	public void ilaunchGmail() throws Exception{
-		System.setProperty("webdriver.chrome.driver", "D:\\money heist\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "resource/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.gmail.com");
 		System.out.println("Launch Gmail");
